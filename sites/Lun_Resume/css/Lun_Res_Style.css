@@ -1,0 +1,167 @@
+
+:root {
+
+}
+
+body {
+	background-color: #2e2e38;
+	margin: 0px;
+	font-family: roboto;
+	color: #e2e7e9;
+}
+
+a:link {
+	color: #e2e7e9;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #0066cc;
+}
+
+a:hover {
+	color: #8b9fa7;
+	text-decoration: underline;
+}
+
+#title{
+	font-size: 100px;
+	margin: 0px;
+}
+
+#social_media{
+	float: right;
+	margin-top: 65px;
+}
+
+#contacts_box{
+	padding: 8px 10px;
+	background-color: #2e2e38;
+	border-radius: 20px;
+	border: 0px;
+	float: right;
+	margin-top: 70px;
+}
+
+#icon_small{
+	margin: 8px;
+	width: 30px;
+}
+
+.text_normal_small{
+	font-size: 15px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.heading{
+	background-color: #3a3a45;
+	box-shadow:  0 5px 9px 0 rgba(0, 0, 0, 0.16), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+	padding: 5px 40px;
+}
+
+.subtext{
+	font-size: 40%;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.centered{
+	text-align: center;
+	margin: 0px auto;
+	justify-content: center;
+}
+
+.centered-v{
+	margin: auto 0px;
+}
+
+.frame{
+	padding: 0px 45.5px;
+	margin: 0px auto;
+	width: auto;
+	background-color: #2e2e38;
+}
+
+.body1{
+	background-color: #3a3a45;
+	box-shadow:  0 5px 9px 0 rgba(0, 0, 0, 0.16), 0 6px 20px 0 rgba(0, 0, 0, 0.14);
+	width: 700px;
+	margin: 40px auto;
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 20px;
+	padding: 20px 20px;
+}
+
+.body1.large{
+	width: 1400px;
+}
+
+.body1 h2{
+	margin-top: 0px;
+}
+
+.box1{
+	padding: 10px 10px;
+	background-color: #2e2e38;
+	border-radius: 10px;
+}
+
+.body2{
+	margin: 20px;
+	margin-top: 5px;
+	padding-right: 10px;
+	min-width: 400px;
+}
+
+.body2.right{
+	text-align: right;
+}
+
+.body2 h3 {
+	margin-top: 0px;
+}
+
+.box-flex{
+	display: flex;
+	align-items: flex-start;
+	align-content: center
+	justify-content: right;
+	margin: 20px 0px;
+	margin-bottom: 0px;
+}
+
+.box-flex div {
+	align-items: center;
+}
+
+.cards{
+	border-style: solid;
+	border-width: 2px;
+	border-right: 0px;
+	border-color: #54525C;
+}
+
+.box-flex.no-margin{
+	margin: 0px;
+}
+
+
+.img-container-small{
+	padding: 0px 45.5px;
+	margin: 0px auto;
+	width: auto;
+}
+
+.footer{
+	bottom: 0px;
+	background-color: #3a3a45;
+	padding: 20px;
+	margin: 0px;
+}
+
+.footer h3{
+	margin: 0px;
+}
+
