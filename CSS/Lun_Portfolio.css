@@ -290,8 +290,17 @@ main {
 }
 
 .req-card {
-	text-align: center;
-	padding: 2%;
+	padding: 4vh;
+}
+
+.req-card a {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.bobbing-container:hover {
+	animation: vibrate-less 0.5s steps(2) infinite;
 }
 
 
