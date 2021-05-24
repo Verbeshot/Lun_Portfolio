@@ -205,19 +205,6 @@ main {
 }
 
 /*----Specific Classes-----*/
-
-.topnav {
-	color: var(--white-2);
-	fill: var(--white-2);
-	top: 0;
-	z-index: 9;
-}
-
-.topnav a {
-	color: var(--white-2);
-	fill: var(--white-2);
-}
-
 .topnav a:hover {
 	color: var(--white-2);
 	fill: var(--white-2);
@@ -304,6 +291,33 @@ main {
 }
 
 
+/*---------------------------------------------------------Specific ID's---------------------------------------------------------*/
+
+#verbeshot-logo {
+	text-align: center;
+	margin: 20px;
+	position: relative;
+}
+
+#verbeshot-logo img {
+	height: 400px;
+}
+
+#portfolio-list {
+	padding: 20px;
+	margin: 40px;
+}
+
+#logo-title {
+	font-size: 200px;
+}
+
+#logo-header {
+	font-size: 60px;
+	font-style: italic;
+	font-family: 'Bree Serif';
+}
+
 /*Footer*/
 
 #footer {
@@ -325,13 +339,17 @@ main {
 }
 
 @media only screen and (max-width: 58em) {
-
+	#logo-title {
+		color: var(--white-0);
+		/* mix-blend-mode: difference; */
+		position: absolute;
+		transform: translate(-230px,200px);
+	}
 
 }
 	
 
 @media only screen and (max-width: 40em) {
-	
 
 }
 	

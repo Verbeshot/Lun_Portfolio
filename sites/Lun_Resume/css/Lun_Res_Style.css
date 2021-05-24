@@ -1,8 +1,4 @@
 
-:root {
-
-}
-
 body {
 	background-color: #2e2e38;
 	margin: 0px;
@@ -126,10 +122,15 @@ a:hover {
 .box-flex{
 	display: flex;
 	align-items: flex-start;
-	align-content: center
+	align-content: center;
 	justify-content: right;
 	margin: 20px 0px;
 	margin-bottom: 0px;
+	min-width: 30vw;
+}
+
+.wrap {
+	flex-wrap: wrap;
 }
 
 .box-flex div {
@@ -165,3 +166,12 @@ a:hover {
 	margin: 0px;
 }
 
+@media print {
+	.body1 {
+		box-shadow: none;
+	}
+
+	body {
+		background-color: white !important;
+	}
+}
