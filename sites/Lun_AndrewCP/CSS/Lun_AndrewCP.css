@@ -606,7 +606,37 @@ main {
 	margin: 1em;
 }
 
+/*About Page*/
+
+#about-container {
+
+}
+
+#about-header {
+	color: var(--white-0);
+	font-size: 10em;
+}
+
+#profile-image-A img {
+	height: 60em;
+}
+
+
 /*---------------------------------------------------------Media Queries---------------------------------------------------------*/
+
+@media only screen and (min-width: 100em) {
+
+	#nav-wrapper {
+		transition: 1s;
+		clip-path: path('M 0 98.8 Q 0 197.6 197.6 197.6 Q 296.4 197.6 296.4 296.4 Q 296.4 494 494 395.2 Q 691.6 296.4 592.8 592.8 Q 494 889.2 691.6 790.4 Q 889.2 691.6 988 790.4 Q 1185.6 988 1185.6 790.4 Q 1185.6 592.8 1284.4 592.8 Q 1482 592.8 1383.2 395.2 Q 1284.4 197.6 1580.8 296.4 Q 1877.2 395.2 1877.2 296.4 Q 1877.2 98.8 2074.8 197.6 Q 2272.4 296.4 2272.4 98.8 L 2272.4 0 L 0 0');
+	}
+
+	#CPlogo-b {
+		position: absolute;
+		transform: translate3d(750px,100px,0);
+	}
+
+}
 
 @media only screen and (max-width: 72.23em) {
 
