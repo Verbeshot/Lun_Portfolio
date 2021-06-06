@@ -313,7 +313,7 @@ main {
 
 #nav-wrapper-b {
 	position: relative;
-	background-color: var(--white-1);
+	background-color: var(--black-0);
 	height: 100vh;
 	transition: 1s;
 }
@@ -404,7 +404,7 @@ main {
 	min-width: 100px;
 }
 
-.about-link:hover {
+#about-link:hover {
 	color: var(--orange-2) !important;
 }
 
@@ -426,7 +426,7 @@ main {
 }
 
 #videos-dropdown:hover {
-	background-color: rgb(255,255,255,.2);
+	background-color: rgb(255,255,255,.1);
 	border: 1px solid var(--mgray-2);
 	filter: 	brightness(200%);
 }
