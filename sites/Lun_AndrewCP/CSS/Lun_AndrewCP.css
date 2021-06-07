@@ -324,7 +324,7 @@ main {
 #nav-wrapper-b {
 	position: relative;
 	background-color: var(--black-0);
-	height: 200vh;
+	height: 220vh;
 	transition: 1s;
 }
 
@@ -630,7 +630,8 @@ main {
 
 #flipped-video {
 	transform: translate(0,100%) rotateX(180deg);
-	clip-path: polygon(0 20%, 100% 20%, 100% 100%, 0 100%);
+	overflow: hidden;
+	/* clip-path: polygon(0 20%, 100% 20%, 100% 100%, 0 100%); */
 }
 
 #about-container {
