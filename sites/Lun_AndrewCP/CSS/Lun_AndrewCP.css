@@ -710,7 +710,7 @@ main {
 
 /*---------------------------------------------------------Media Queries---------------------------------------------------------*/
 
-@media only screen and (min-width: 100em) {
+@media only screen and (min-width: 1100em) {
 
 	#nav-wrapper {
 		transition: 1s;
